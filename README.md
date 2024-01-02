@@ -24,9 +24,9 @@ Here, we have some code files with incomplete snippets along with corresponding 
 
 ### Problem 1 - Group by
 
-| File                  | Test                           |
-| --------------------- | ------------------------------ |
-| `src/problem1-lis.ts` | `src__tests__/problem1-lis.ts` |
+| File                  | Test                                       |
+| --------------------- | -------------------------------------------|
+| `src/problem1-groupby.ts` | `src__tests__/problem1.groupby.test.ts`|
 
 In `src/problem1-groupby.ts` we have a function `groupBy` that takes in an array of objects `arr` and a `key`. attempts to groups the objects by a key
 
@@ -63,7 +63,7 @@ Output:
 
 | File                  | Test                           |
 | --------------------- | ------------------------------ |
-| `src/problem1-lis.ts` | `src__tests__/problem1-lis.ts` |
+| `src/problem2-lis.ts` | `src__tests__/problem2-lis.ts` |
 
 In `src/problem1-lis.ts`, we have a function `getLongestIncreasingSubsequence`, It should take in an array of integers as input and return the length of the longest increasing subsequence. A subsequence is a sequence of numbers in an array that are in the same order as they appear in the array, but not necessarily contiguous. The numbers in the subsequence must be strictly increasing.
 

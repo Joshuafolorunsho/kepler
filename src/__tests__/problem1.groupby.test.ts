@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { groupBy } from "../problem2-groupby";
+import { groupBy } from "../problem1-groupby";
 
 test("Should return properly groupped result", () => {
   const people = [
