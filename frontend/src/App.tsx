@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
 function ParentComponent({ handleClick }: { handleClick: () => void }) {
   return (
@@ -10,23 +10,23 @@ function ParentComponent({ handleClick }: { handleClick: () => void }) {
   );
 }
 
-const ChildComponent1 = () => {
+const ChildComponent1 = React.memo(() => {
   console.log("Child1");
   return (
     <div>
       <h1>Child2</h1>
     </div>
   );
-};
+});
 
-const ChildComponent2 = () => {
+const ChildComponent2 = React.memo(() => {
   console.log("Child2");
   return (
     <div>
       <h1>Child2</h1>
     </div>
   );
-};
+});
 
 const ChildComponent3 = ({ handleClick }: { handleClick: () => void }) => {
   console.log("Child3");
